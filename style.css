@@ -86,6 +86,19 @@ button:active {
   font-size: 1.5rem;
 }
 
+/* i {
+  vertical-align: text-top;
+} */
+
+#favorite {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+#favorite:hover {
+  color: red;
+}
+
 /* Loader */
 .loader {
   border: 16px solid #f3f3f3;
@@ -98,6 +111,38 @@ button:active {
 
 img {
   width: 30px;
+}
+
+.nav-btn .fas {
+  text-align: end;
+}
+
+#show-favorites {     
+  top: 10%;
+}
+
+#homeBtn {
+  top: 3%;
+}
+
+.nav-btn {
+  margin: auto;
+  position: fixed;  
+  left: 1%;  
+  height: 2rem;
+  width: 9rem;
+  text-align: left;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+.nav-btn:hover {
+  opacity: 0.8;
+}
+
+.nav-btn:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
 
 @keyframes spin {
@@ -114,4 +159,17 @@ img {
   .quote-text {
     font-size: 2.5rem;
   }
+}
+
+.fav-q-par {
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.heart {
+  color: red;
+}
+
+h4 {
+  color: blueviolet;
 }
