@@ -82,6 +82,10 @@ button:active {
   font-size: 1.5rem;
 }
 
+.fa-heart {
+  font-size: 1.5rem;
+}
+
 /* Loader */
 .loader {
   border: 16px solid #f3f3f3;
